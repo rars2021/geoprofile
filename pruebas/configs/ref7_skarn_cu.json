@@ -1,0 +1,40 @@
+{
+  "plantilla": "vacia",
+  "semilla": 17,
+  "figsize": [6.6, 6.2],
+  "x": [-500, 500],
+  "z": [0, 1000],
+  "eje": "relativo",
+  "orientacion": ["W", "E"],
+  "topo": {"cota": 930, "ondulacion": 10, "pendiente": 0.0, "rugosidad": 10},
+  "caja": {"color": "#e6e1d8", "trama": "lutita", "nombre": "Lutita"},
+  "secuencias": [
+    {"base": null, "rellena": true, "z0": 0, "pendiente": 0.12, "rugosidad": 14,
+     "capas": [
+       {"espesor": 120, "color": "#e6e1d8", "trama": "lutita", "nombre": "Lutita"},
+       {"espesor": 150, "color": "#dfe6ee", "trama": "caliza", "nombre": "Caliza"},
+       {"espesor": 100, "color": "#ece6d6", "trama": "marga", "nombre": "Arenisca calcárea"},
+       {"espesor": 180, "color": "#dfe6ee", "trama": "caliza", "nombre": "Caliza"},
+       {"espesor": 100, "color": "#e6e1d8", "trama": "lutita", "nombre": "Lutita"},
+       {"espesor": 150, "color": "#dfe6ee", "trama": "caliza", "nombre": "Caliza"},
+       {"espesor": 200, "color": "#efe6cf", "trama": "arenisca", "nombre": "Arenisca"}
+     ]}
+  ],
+  "intrusivos": [
+    {"x": 0, "ancho_base": 640, "ancho_techo": 440, "z_techo": 830, "domo": 50, "color": "#e6dcef", "trama": "skarn",
+     "borde": "#6a4a7a", "nombre": "Aureola de granate–piroxeno (exoskarn)", "rotulo": "Aureola térmica: granate–piroxeno; wollastonita y mármol afuera"},
+    {"x": 0, "ancho_base": 430, "ancho_techo": 270, "z_techo": 700, "domo": 40, "color": "#f7e1dc", "trama": "intrusivo",
+     "nombre": "Tonalita a granodiorita (plutón)", "rotulo": "Plutón de tonalita–granodiorita"}
+  ],
+  "cuerpos": [
+    {"x": -265, "z": 395, "largo": 150, "ancho": 55, "angulo": 8, "color": "#1f1f1f",
+     "nombre": "Cuerpos de reemplazo (cpy–py–po–mt)", "rotulo": "Cuerpos de reemplazo: calcopirita, pirita, pirrotita, magnetita"},
+    {"x": 270, "z": 470, "largo": 170, "ancho": 60, "angulo": 12},
+    {"x": -245, "z": 180, "largo": 110, "ancho": 40, "angulo": 6},
+    {"x": 245, "z": 750, "largo": 130, "ancho": 45, "angulo": 10}
+  ],
+  "fallas": [
+    {"x_base": 470, "inclinacion": 0.35, "salto": 0, "texto": "Zona de cizalla"}
+  ],
+  "escala_m": 200
+}

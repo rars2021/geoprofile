@@ -1,0 +1,29 @@
+{
+  "plantilla": "vacia",
+  "semilla": 4,
+  "figsize": [6.4, 6.0],
+  "x": [-300, 300],
+  "z": [0, 1000],
+  "eje": "relativo",
+  "orientacion": ["W", "E"],
+  "topo": {"cota": 900, "ondulacion": 15, "pendiente": -0.02, "rugosidad": 10},
+  "caja": {"color": "#eef0e4", "trama": "toba", "nombre": "Tobas e ignimbritas (caja)"},
+  "veta": {"x": 0, "buzamiento": 82, "ancho": 4, "hinchamiento": 3,
+           "ramales": [[700, -1], [730, 1], [760, -1], [780, 1], [650, 1]]},
+  "clavo": {"z": [560, 720], "texto": "Bonanza y/o stockwork", "brecha": true},
+  "halos": [
+    {"nombre": "Cuarzo–caolinita–alunita", "rotulo": "Cuarzo + caolinita + alunita", "ancho": [0, 150],
+     "rugosidad": 18, "z_ini": 800, "color": "#e7c46d", "borde": "#9a7420", "trama": "////", "alpha": 0.75,
+     "rotulo_z": 870},
+    {"nombre": "Silicificación", "rotulo": "Silicificación", "ancho": [6, 90], "rugosidad": 12, "z_ini": 760,
+     "z_fin": 860, "color": "#d6d6d6", "borde": "#6a6a6a", "trama": "..", "alpha": 0.85, "rotulo_z": 820},
+    {"nombre": "Cuarzo–illita–pirita", "rotulo": "Cuarzo + illita + pirita", "ancho": [10, 70], "rugosidad": 12,
+     "z_ini": 580, "z_fin": 800, "color": "#d9b8d9", "borde": "#7a4f7a", "trama": "\\\\", "alpha": 0.7, "rotulo_z": 700},
+    {"nombre": "Cuarzo–adularia", "rotulo": "Cuarzo + adularia + illita + sulfuros de Ag y metales base",
+     "ancho": [8, 22], "rugosidad": 5, "color": "#c9c9c9", "borde": "#7a7a7a", "trama": "||", "alpha": 0.85,
+     "rotulo_z": 450}
+  ],
+  "ebullicion": {"z": 300, "texto": "Base de Au–Ag"},
+  "intervalos": [[860, 560, "Nivel superior de depositación"], [560, 180, "Nivel inferior"]],
+  "escala_m": 200
+}

@@ -1,0 +1,45 @@
+{
+  "plantilla": "vacia",
+  "semilla": 9,
+  "figsize": [6.6, 6.0],
+  "x": [-450, 450],
+  "z": [0, 1000],
+  "eje": "relativo",
+  "orientacion": ["SE", "NW"],
+  "topo": {"puntos": [[-450, 840], [-250, 850], [-120, 930], [0, 905], [80, 900], [150, 950], [450, 900]],
+           "rugosidad": 10},
+  "caja": {"color": "#f4f2ec", "trama": "metamorfico", "ang": 50, "nombre": "Metasedimentos Tazin"},
+  "secuencias": [
+    {"base": null, "z0": 8, "pendiente": 1.19, "rugosidad": 25,
+     "capas": [
+       {"espesor": 160, "color": "#ece4d4", "trama": "granito", "nombre": "Granitos y gneises Tazin"},
+       {"espesor": 520, "color": "#f4f2ec", "trama": "metamorfico", "nombre": "_franja intermedia", "borde": "none"},
+       {"espesor": 160, "color": "#ece4d4", "trama": "granito", "nombre": "Granitos y gneises Tazin"}
+     ]}
+  ],
+  "fallas": [
+    {"x_base": -360, "inclinacion": -0.84, "salto": 40, "texto": "Falla St. Louis (50°)", "posmineral": false}
+  ],
+  "veta": {"x": -40, "buzamiento": 50, "ancho": 1.6, "hinchamiento": 0.6, "color": "#4a4a4a", "grosor_ramales": 1.0, "estilo_ramales": [0, [5, 3]],
+           "nombre": "Fracturas de la zona de falla",
+           "ramales": [[300, -1], [420, -1], [520, -1], [640, 1]]},
+  "halos": [
+    {"nombre": "Gneises rojos y milonitas", "rotulo": "Gneises rojos y milonitas (zona de falla)", "ancho": [30, 60],
+     "rugosidad": 14, "color": "#efd2c4", "borde": "#9a5a3f", "trama": "--", "alpha": 0.7, "rotulo_z": 640}
+  ],
+  "cuerpos": [
+    {"x": -255, "z": 110, "largo": 90, "ancho": 16, "angulo": 50, "nombre": "Cuerpos de pechblenda", "rotulo": "Cuerpos de pechblenda (Fay, bloque de piso)"},
+    {"x": -205, "z": 175, "largo": 70, "ancho": 12, "angulo": 52},
+    {"x": -150, "z": 250, "largo": 110, "ancho": 18, "angulo": 49},
+    {"x": -80, "z": 330, "largo": 60, "ancho": 10, "angulo": 51},
+    {"x": -10, "z": 420, "largo": 95, "ancho": 15, "angulo": 50},
+    {"x": 95, "z": 545, "largo": 120, "ancho": 20, "angulo": 48},
+    {"x": 190, "z": 680, "largo": 80, "ancho": 13, "angulo": 50},
+    {"x": 280, "z": 790, "largo": 100, "ancho": 22, "angulo": 47},
+    {"x": -260, "z": 400, "largo": 70, "ancho": 10, "angulo": 35},
+    {"x": -190, "z": 480, "largo": 60, "ancho": 9, "angulo": 30},
+    {"x": -110, "z": 560, "largo": 75, "ancho": 11, "angulo": 33}
+  ],
+  "columnas_leyenda": 2,
+  "escala_m": 200
+}

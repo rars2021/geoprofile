@@ -1,0 +1,51 @@
+{
+  "plantilla": "vacia",
+  "semilla": 3,
+  "figsize": [8.2, 5.0],
+  "x": [-3000, 3000],
+  "z": [500, 2800],
+  "orientacion": ["SW", "NE"],
+  "columna_rotulos": 0.27,
+  "topo": {"rugosidad": 25, "puntos": [[-3000, 1520], [-2750, 1500], [-2450, 1150], [-2250, 880], [-2100, 870],
+           [-1900, 1050], [-1600, 1430], [-1350, 1540], [-1050, 1600], [-850, 1700], [-700, 1700], [-550, 1880],
+           [-150, 1900], [100, 2060], [500, 2120], [800, 2330], [1300, 2380], [1700, 2560], [2200, 2600],
+           [2600, 2700], [3000, 2720]]},
+  "caja": {"color": "#e4e4e4", "trama": "esquisto", "ang": 70, "nombre": "Basamento Vishnu (esquistos)"},
+  "intrusivos": [
+    {"x": -2100, "ancho_base": 900, "ancho_techo": 500, "z_techo": 1250, "domo": 60, "color": "#efefef",
+     "trama": "granito", "borde": "#6a6a6a", "nombre": "Granitos (Zoroaster, Elves Chasm)"}
+  ],
+  "secuencias": [
+    {"base": {"z": 1150, "pendiente": -0.7, "rugosidad": 15, "color": "#3a3a3a", "grosor": 1.0},
+     "z0": 1180, "pendiente": -0.7, "rugosidad": 8,
+     "capas": [
+       {"espesor": 900, "color": "#efc39b", "trama": "arenisca", "nombre": "Gr. Unkar"},
+       {"espesor": 150, "color": "#9b6a4a", "trama": "basalto", "color_trama": "#5a3a2a", "nombre": "Basalto Cardenas"},
+       {"espesor": 80, "color": "#e6b48c", "trama": "arenisca", "nombre": "Fm. Nankoweap"},
+       {"espesor": 700, "color": "#d9a27f", "trama": "lutita", "nombre": "Gr. Chuar"},
+       {"espesor": 61, "color": "#cf8f7c", "trama": "brecha", "nombre": "Fm. Sixtymile"}
+     ]},
+    {"base": {"z": 1490, "pendiente": 0.0, "rugosidad": 18, "nombre": "Gran Discordancia (angular sobre el Supergrupo, inconformidad sobre el basamento)",
+              "color": "#d62728", "grosor": 2.2, "leyenda": "Gran Discordancia", "rotulo_pos": 0.45},
+     "z0": 1500, "pendiente": 0.0, "rugosidad": 6,
+     "capas": [
+       {"espesor": 60, "color": "#cfdcea", "trama": "arenisca", "nombre": "Arenisca Tapeats"},
+       {"espesor": 110, "color": "#b9cfe2", "trama": "lutita", "nombre": "Lutita Bright Angel"},
+       {"espesor": 100, "color": "#a9c1da", "trama": "caliza", "nombre": "Caliza Muav"},
+       {"espesor": 25, "color": "#c3d2e3", "trama": "dolomia", "nombre": "Fm. Temple Butte"},
+       {"espesor": 160, "color": "#9fb9d6", "trama": "caliza", "nombre": "Caliza Redwall"},
+       {"espesor": 300, "color": "#c9d3e3", "trama": "limolita", "nombre": "Gr. Supai"},
+       {"espesor": 100, "color": "#d6dde9", "trama": "lutita", "nombre": "Fm. Hermit"},
+       {"espesor": 100, "color": "#e3e9f2", "trama": "arenisca_cruzada", "nombre": "Arenisca Coconino"},
+       {"espesor": 80, "color": "#c3d2e3", "trama": "marga", "nombre": "Fm. Toroweap"},
+       {"espesor": 120, "color": "#adc4dc", "trama": "caliza", "nombre": "Fm. Kaibab"}
+     ]}
+  ],
+  "fallas": [
+    {"x_base": -650, "inclinacion": 0.75, "salto": 700, "sella": 1, "texto": "Fallas normales del Supergrupo (selladas por la discordancia)"},
+    {"x_base": 1900, "inclinacion": 0.7, "salto": -1500, "sella": 1}
+  ],
+  "nombre_falla": "Falla (anterior al Paleozoico)",
+  "columnas_leyenda": 3,
+  "escala_m": 1000
+}

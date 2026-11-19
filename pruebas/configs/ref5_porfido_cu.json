@@ -1,0 +1,225 @@
+{
+ "plantilla": "vacia",
+ "semilla": 21,
+ "figsize": [
+  8.2,
+  4.6
+ ],
+ "x": [
+  -3000,
+  3000
+ ],
+ "z": [
+  0,
+  2700
+ ],
+ "eje": "relativo",
+ "orientacion": [
+  "W",
+  "E"
+ ],
+ "columna_rotulos": 0.3,
+ "topo": {
+  "cota": 2380,
+  "ondulacion": 40,
+  "pendiente": 0.0,
+  "rugosidad": 40
+ },
+ "caja": {
+  "color": "#eef0e4",
+  "trama": "andesita",
+  "nombre": "Rocas volcánicas (basamento)"
+ },
+ "secuencias": [
+  {
+   "base": {
+    "z": 1250,
+    "pendiente": 0.25,
+    "rugosidad": 25,
+    "color": "#5a5a5a",
+    "grosor": 0.9
+   },
+   "z0": 1250,
+   "pendiente": 0.25,
+   "rugosidad": 20,
+   "capas": [
+    {
+     "espesor": 330,
+     "color": "#dfe6ee",
+     "trama": "caliza",
+     "nombre": "Caliza"
+    },
+    {
+     "espesor": 230,
+     "color": "#efe6cf",
+     "trama": "arenisca",
+     "nombre": "Arenisca"
+    },
+    {
+     "espesor": 280,
+     "color": "#dfe6ee",
+     "trama": "caliza",
+     "nombre": "Caliza"
+    },
+    {
+     "espesor": 220,
+     "color": "#e6e1d8",
+     "trama": "lutita",
+     "nombre": "Lutita"
+    },
+    {
+     "espesor": 400,
+     "color": "#dfe6ee",
+     "trama": "caliza",
+     "nombre": "Caliza"
+    }
+   ]
+  }
+ ],
+ "fallas": [
+  {
+   "x_base": -2450,
+   "inclinacion": -0.55,
+   "salto": 250
+  },
+  {
+   "x_base": 2650,
+   "inclinacion": 0.45,
+   "salto": -250,
+   "texto": "Falla normal"
+  }
+ ],
+ "intrusivos": [
+  {
+   "x": 0,
+   "ancho_base": 1500,
+   "ancho_techo": 1250,
+   "z_techo": 2500,
+   "color": "#f7e1dc",
+   "trama": "intrusivo",
+   "nombre": "Pórfido (stock)",
+   "rotulo": "Pórfido con stockwork de cuarzo–sulfuros",
+   "aureolas": [
+    {
+     "distancia": 1150,
+     "nombre": "Propilítica (clorita–epidota–calcita)",
+     "rotulo": "Halo propilítico: pirita",
+     "color": "#9cc58f",
+     "borde": "#4f7a45",
+     "trama": "---",
+     "alpha": 0.45
+    },
+    {
+     "distancia": 380,
+     "nombre": "Fílica (cuarzo–sericita–pirita)",
+     "rotulo": "Halo fílico (cuarzo–sericita–pirita)",
+     "color": "#cdb8dc",
+     "borde": "#6a4a7a",
+     "trama": "\\\\\\\\",
+     "alpha": 0.6
+    },
+    {
+     "distancia": -220,
+     "nombre": "Potásica (feldespato K–biotita)",
+     "rotulo": "Núcleo potásico: calcopirita + molibdenita",
+     "color": "#f0b27a",
+     "borde": "#a0522d",
+     "trama": "..",
+     "alpha": 0.55
+    }
+   ]
+  }
+ ],
+ "cuerpos": [
+  {
+   "x": -380,
+   "z": 900,
+   "largo": 900,
+   "ancho": 220,
+   "angulo": 82,
+   "color": "#f3ecdc",
+   "borde": "#6a5a3a",
+   "trama": "brecha",
+   "nombre": "Chimenea de brecha",
+   "rotulo": true
+  },
+  {
+   "x": 760,
+   "z": 1880,
+   "largo": 240,
+   "ancho": 80,
+   "angulo": 70,
+   "color": "#1f1f1f",
+   "nombre": "Skarn Cu–Au (reemplazo en caliza)",
+   "rotulo": true
+  },
+  {
+   "x": 820,
+   "z": 1520,
+   "largo": 180,
+   "ancho": 60,
+   "angulo": 75
+  },
+  {
+   "x": 1900,
+   "z": 2150,
+   "largo": 420,
+   "ancho": 30,
+   "angulo": 25,
+   "color": "#555555",
+   "nombre": "Reemplazo polimetálico y vetas Zn–Mn",
+   "rotulo": true
+  }
+ ],
+ "mantos": [
+  {
+   "x": [
+    -1300,
+    1400
+   ],
+   "desde": 0,
+   "hasta": 120,
+   "lente": true,
+   "color": "#f6edd2",
+   "trama": "..",
+   "borde": "#a08c5a",
+   "nombre": "Casquete lixiviado",
+   "rotulo": "Casquete lixiviado (limonitas)"
+  },
+  {
+   "x": [
+    -1400,
+    1500
+   ],
+   "desde": 150,
+   "hasta": 240,
+   "color": "#d4a3a3",
+   "trama": "xxx",
+   "borde": "#8a4a4a",
+   "nombre": "Enriquecimiento supérgeno (Cu₂S)",
+   "rotulo": "Manto de enriquecimiento (Cu₂S)"
+  }
+ ],
+ "nivel_freatico": {
+  "prof": 140,
+  "texto": "Nivel freático"
+ },
+ "franja": [
+  [
+   -3000,
+   -900,
+   "Alteración propilítica\nMineralización: pirita"
+  ],
+  [
+   -900,
+   900,
+   "Potásica ± fílica tardía\ncalcopirita + pirita + molibdenita"
+  ],
+  [
+   900,
+   3000,
+   "Alteración propilítica\nMineralización: pirita"
+  ]
+ ],
+ "escala_m": 1000
+}

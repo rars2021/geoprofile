@@ -1,0 +1,117 @@
+[
+  {
+    "id": "ref1_grand_canyon_seccion",
+    "tipo": "perfil",
+    "titulo": "1. Sección con fallas y discordancias — Grand Canyon",
+    "referencia": "ref1_seccion_grand_canyon_nps2021.jpg",
+    "fuente": "Karlstrom et al. (2021), Telling time at Grand Canyon NP: 2020 update, NPS/GRCA/NRR-2021/2246",
+    "licencia": "dominio público (obra del Gobierno de EE. UU., NPS; vía Wikimedia Commons)",
+    "bien": [
+      "Tres conjuntos como en la referencia: basamento con granitos, Supergrupo basculado en bloques fallados y Paleozoico horizontal.",
+      "Las fallas desplazan al Supergrupo y quedan selladas por la Gran Discordancia; el Paleozoico no se corta.",
+      "Cañón dibujado por puntos, tramas FGDC que siguen el buzamiento y leyenda con las mismas tramas."
+    ],
+    "falla": [
+      "Espesores del Supergrupo esquemáticos (como en la referencia); las capas paleozoicas no cambian de espesor lateralmente.",
+      "Una sola superficie para la Gran Discordancia: no separa por nombre el tramo angular del de inconformidad."
+    ]
+  },
+  {
+    "id": "ref2_fay_ace_verna",
+    "tipo": "perfil",
+    "titulo": "2. Mena a lo largo de una falla — minas Fay-Ace-Verna (Eldorado)",
+    "referencia": "ref2_fay_ace_verna_usgs_ofr81-166.png",
+    "fuente": "Nash (1981), USGS Open-File Report 81-166, Fig. 24 (mod. de Little et al., 1972)",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Lentes de pechblenda discontinuos a lo largo de la falla St. Louis (50°) y en el bloque de techo, como en la referencia.",
+      "Bandas de granito-gneis paralelas a la falla, zona de milonitas y fracturas subsidiarias discontinuas.",
+      "Eje de altura relativa: la referencia no tiene cotas y la figura ya no las inventa."
+    ],
+    "falla": [
+      "Los lentes se ubican a mano en el config; no hay una opción que los siembre a lo largo de una estructura.",
+      "Las fracturas subsidiarias salen como ramales rectos hacia la superficie, no como las fallas que convergen de la referencia."
+    ]
+  },
+  {
+    "id": "ref3_grand_canyon_columna",
+    "tipo": "columna",
+    "titulo": "3. Columna estratigráfica — Grand Canyon",
+    "referencia": "ref3_columna_grand_canyon_usgs.jpg",
+    "fuente": "USGS, «Stratigraphic column of Grand Canyon rocks» (usgs.gov/media)",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Tramas FGDC por litología (caliza en ladrillo, dolomía, arenisca con estratificación cruzada, lutita, esquisto) y capas precámbricas inclinadas.",
+      "Perfil de meteorización: escarpes de Kaibab, Coconino, Redwall y Muav; laderas de Hermit y Bright Angel.",
+      "Barras de era y periodo, tramos cortados (≈) en Unkar y Chuar, y discordancias según su tipo; ningún texto se encima."
+    ],
+    "falla": [
+      "Los rótulos de disconformidad empujan la litología hacia abajo y la unen con guías: se lee, pero es más cargado que la referencia.",
+      "No dibuja los números en círculo ni el encabezado por conjuntos de la figura del USGS."
+    ]
+  },
+  {
+    "id": "ref4_creede",
+    "tipo": "perfil",
+    "titulo": "4. Zonación de una veta epitermal — modelo Creede",
+    "referencia": "ref4_creede_usgs_b1693_fig106.png",
+    "fuente": "Mosier, Sato, Page, Singer y Berger (1986), USGS Bulletin 1693, Fig. 106",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Embudo de ramales, bonanza con brecha y zonas en el orden vertical de la referencia.",
+      "La silicificación y el cuarzo–illita–pirita ahora se cierran arriba y abajo (z_fin); los halos llegan a la superficie sin techo plano."
+    ],
+    "falla": [
+      "La referencia rotula minerales dentro de la veta; geoprofile los dibuja como halos laterales.",
+      "No hay símbolo para el cuarzo–calcita estéril del techo de la veta."
+    ]
+  },
+  {
+    "id": "ref5_porfido_cu",
+    "tipo": "perfil",
+    "titulo": "5. Pórfido de cobre — modelo general",
+    "referencia": "ref5_porfido_cu_usgs_b1693_fig50.png",
+    "fuente": "Cox (1986), USGS Bulletin 1693, Fig. 50",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Stock con núcleo potásico y halos fílico y propilítico concéntricos; franja superior de alteración y mineralización como en la referencia.",
+      "Perfil supérgeno: casquete lixiviado, nivel freático y manto de enriquecimiento; skarn y reemplazo en la caliza; chimenea de brecha."
+    ],
+    "falla": [
+      "Las capas solo buzan hacia un lado: no hay pliegue ni arrastre contra el stock.",
+      "El stockwork de cuarzo–sulfuros se nombra pero no tiene trama propia."
+    ]
+  },
+  {
+    "id": "ref6_hotspring_auag",
+    "tipo": "perfil",
+    "titulo": "6. Depósito hot-spring de Au–Ag",
+    "referencia": "ref6_hotspring_auag_usgs_b1693_fig105.png",
+    "fuente": "Berger (1986), USGS Bulletin 1693, Fig. 105",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Sínter en superficie, depósitos de explosión, lixiviación ácida en el techo, silicificación con su base y stockwork en embudo.",
+      "Diques de brecha y brecha de explosión hidrotermal como cuerpos con trama de brecha."
+    ],
+    "falla": [
+      "Las vetas de bajo ángulo de la referencia no tienen equivalente: los ramales siempre suben hacia la superficie.",
+      "Las guías de rótulos se cruzan cuando hay muchos elementos en poco espacio."
+    ]
+  },
+  {
+    "id": "ref7_skarn_cu",
+    "tipo": "perfil",
+    "titulo": "7. Skarn de cobre",
+    "referencia": "ref7_skarn_cu_usgs_b1693_fig57.png",
+    "fuente": "Cox y Theodore (1986), USGS Bulletin 1693, Fig. 57",
+    "licencia": "dominio público (USGS)",
+    "bien": [
+      "Plutón con aureola de granate–piroxeno que corta la alternancia de caliza, lutita y areniscas con sus tramas FGDC.",
+      "Cuerpos de reemplazo en las calizas junto al contacto y zona de cizalla."
+    ],
+    "falla": [
+      "Las capas no se doblan contra el plutón (la referencia las muestra arrastradas).",
+      "Mármol y wollastonita no se separan de la aureola: quedan en el rótulo."
+    ]
+  }
+]

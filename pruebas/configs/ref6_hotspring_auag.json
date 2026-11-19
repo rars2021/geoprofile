@@ -1,0 +1,41 @@
+{
+  "plantilla": "vacia",
+  "semilla": 13,
+  "figsize": [7.0, 5.4],
+  "x": [-400, 400],
+  "z": [0, 700],
+  "eje": "relativo",
+  "orientacion": ["W", "E"],
+  "topo": {"cota": 640, "ondulacion": 6, "pendiente": 0.01, "rugosidad": 6},
+  "caja": {"color": "#eef0e4", "trama": "toba", "nombre": "Rocas volcánicas y sedimentos (caja)"},
+  "veta": {"x": 30, "buzamiento": 86, "ancho": 4, "hinchamiento": 2,
+           "ramales": [[380, -1], [400, 1], [440, -1], [470, 1], [500, -1], [530, 1], [560, -1]]},
+  "clavo": {"z": [330, 560], "texto": "Stockwork y brecha hidrotermal:\nAu, Ag, As, Sb, Tl", "brecha": true},
+  "halos": [
+    {"nombre": "Silicificación pervasiva", "rotulo": "Silicificación pervasiva: As, Sb, Au, Ag, Tl diseminados",
+     "ancho": [0, 190], "rugosidad": 16, "z_ini": 440, "color": "#d8d8d8", "borde": "#6a6a6a", "trama": "..",
+     "alpha": 0.85, "rotulo_z": 500},
+    {"nombre": "Lixiviación ácida", "rotulo": "Lixiviación ácida: caolinita, alunita, sílice, jarosita",
+     "ancho": [0, 110], "rugosidad": 10, "z_ini": 560, "color": "#e7c46d", "borde": "#9a7420", "trama": "////",
+     "alpha": 0.75, "rotulo_z": 600},
+    {"nombre": "Cuarzo–sulfuros–adularia", "rotulo": "Vetas de cuarzo–sulfuros–adularia: Au, Ag, As (Cu, Pb, Zn)",
+     "ancho": [6, 18], "rugosidad": 4, "color": "#c9c9c9", "borde": "#7a7a7a", "trama": "||", "alpha": 0.85,
+     "rotulo_z": 200}
+  ],
+  "mantos": [
+    {"x": [-170, 170], "desde": 0, "hasta": 16, "lente": true, "color": "#dfe8f0", "trama": "sinter",
+     "borde": "#5a6b7a", "nombre": "Sínter silíceo", "rotulo": "Sínter silíceo: Sb, As, Au, Ag, Hg", "rotulo_arriba": true},
+    {"x": [-400, -180], "desde": 0, "hasta": 26, "lente": true, "color": "#f1ead8", "trama": "conglomerado",
+     "borde": "#8a744a", "nombre": "Depósitos estratificados de explosión"}
+  ],
+  "cuerpos": [
+    {"x": -170, "z": 300, "largo": 300, "ancho": 26, "angulo": 22, "color": "#f3ecdc", "borde": "#6a5a3a",
+     "trama": "brecha", "nombre": "Diques de brecha", "rotulo": true},
+    {"x": -150, "z": 420, "largo": 170, "ancho": 22, "angulo": 48},
+    {"x": -80, "z": 570, "largo": 150, "ancho": 80, "angulo": 85, "color": "#f3ecdc", "borde": "#6a5a3a",
+     "trama": "brecha", "nombre": "Brecha de explosión hidrotermal", "rotulo": true}
+  ],
+  "ebullicion": {"z": 440, "texto": "Base de la silicificación"},
+  "intervalos": [[630, 190, "Au–Ag (100 a 500 m)"], [190, 10, "Cu–Pb–Zn"]],
+  "escala_m": 100
+}

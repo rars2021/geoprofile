@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# figuras sin licencia de redistribución y pruebas privadas: solo en local
+.claude/skills/geoprofile/references/img/privadas/
+pruebas-privadas/
+# skills de terceros que el entorno local agrega
+.claude/skills/ponytail*/

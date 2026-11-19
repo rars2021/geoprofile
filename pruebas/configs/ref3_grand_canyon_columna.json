@@ -1,0 +1,33 @@
+{
+  "plantilla": "vacia",
+  "semilla": 5,
+  "figsize": [7.0, 8.8],
+  "unidades": [
+    [200, "Basamento Vishnu", "1680–1840 Ma", "Esquistos, gneises y granitos", 0.95, "#d9d9d9", "esquisto", "desconocido", {"buz": 75}],
+    [230, "Gr. Unkar", "1100–1200 Ma", "Areniscas, lutitas, calizas\ny basalto (Cardenas)", 0.6, "#efc39b", "arenisca", "2 070 m", {"buz": 22, "cortada": true}],
+    [60, "Fm. Nankoweap", "900 Ma", "Areniscas", 0.55, "#e6b48c", "arenisca", "113 m", {"buz": 22}],
+    [200, "Gr. Chuar", "740–770 Ma", "Lutitas con calizas", 0.45, "#d9a27f", "lutita", "1 585 m", {"buz": 22, "cortada": true}],
+    [40, "Fm. Sixtymile", "< 740 Ma", "Areniscas y brechas", 0.5, "#cf8f7c", "brecha", "61 m", {"buz": 22}],
+    [55, "Arenisca Tapeats", "525 Ma", "Areniscas", 0.8, "#cfdcea", "arenisca", "0–61 m"],
+    [90, "Lutita Bright Angel", "515 Ma", "Lutitas verdes", 0.45, "#b9cfe2", "lutita", "107 m"],
+    [100, "Caliza Muav", "505 Ma", "Calizas", 0.75, "#a9c1da", "caliza", "137 m"],
+    [30, "Fm. Temple Butte", "385 Ma", "Dolomías", 0.7, "#c3d2e3", "dolomia", "0–15 m"],
+    [120, "Caliza Redwall", "340 Ma", "Calizas", 0.88, "#9fb9d6", "caliza", "152 m"],
+    [30, "Fm. Surprise Canyon", "320 Ma", "Lutitas y areniscas", 0.5, "#c9d6e6", "limolita", "0–23 m"],
+    [200, "Gr. Supai", "285–315 Ma", "Areniscas y lutitas rojas", 0.65, "#c9d3e3", "limolita", "305 m"],
+    [80, "Fm. Hermit", "280 Ma", "Lutitas rojas", 0.5, "#d6dde9", "lutita", "91 m"],
+    [80, "Arenisca Coconino", "275 Ma", "Areniscas eólicas\n(estratificación cruzada)", 0.85, "#e3e9f2", "arenisca_cruzada", "91 m"],
+    [65, "Fm. Toroweap", "273 Ma", "Calizas y areniscas", 0.7, "#c3d2e3", "marga", "76 m"],
+    [90, "Fm. Kaibab", "270 Ma", "Calizas con chert", 0.9, "#adc4dc", "caliza", "107 m"]
+  ],
+  "edades": [
+    [[0, 4, "Precámbrico"], [5, 15, "Paleozoico"]],
+    [[0, 4, "Proterozoico"], [5, 7, "Cámbrico"], [8, 8, "Dev."], [9, 10, "Misisip."], [11, 11, "Pens."], [12, 15, "Pérmico"]]
+  ],
+  "discordancias": [[1, "inconformidad (Gran Inconformidad)", "inconformidad"],
+                    [5, "Gran Discordancia Angular", "angular"],
+                    [8, "disconformidad", "paraconformidad"], [9, "disconformidad", "paraconformidad"],
+                    [10, "disconformidad", "paraconformidad"], [11, "disconformidad", "paraconformidad"]],
+  "notas": [{"z": 690, "texto": "Precámbrico con capas inclinadas ~20°;\nGr. Unkar y Gr. Chuar cortados (≈)"}],
+  "escala_m": 100
+}
